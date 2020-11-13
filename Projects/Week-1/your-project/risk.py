@@ -1,6 +1,12 @@
 #!/usr/bin/env python3
 #make the file exectuable 
 
+# --------------------------------------
+# INITIALIZE 
+
+#import colors for background
+#from colorama import Fore
+
 class Player:
     def __init__(self, name):
         self.name = name
@@ -25,8 +31,12 @@ print(players_enu)
 
 # create objects from list of object names
 for i, x in enumerate(players_enu):
-    #print(x)
+    print(x)
     x = Player(players_lst[i])
     print(x.name)
 
 print(player_1.name)
+
+
+# --------------------------------------
+# BOARD SETUP
