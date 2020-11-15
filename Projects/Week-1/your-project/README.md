@@ -16,7 +16,9 @@
 We wrote a python adeptation of the board game "Risk". 
 
 ## Rules
-Describe briefly the rules of the game you chose. 
+OBJECTIVE:  The object of the game is to occupy every territory on the board and in doing so, eliminate the other players. The game of world domination!
+NUMBER OF PLAYERS: 2-6 players
+read more: https://www.ultraboardgames.com/risk/game-rules.php
 
 ## Workflow
 Outline the workflow you used in your project. What are the steps you went through?
@@ -27,7 +29,6 @@ We first planned out the code roughly as a flow chart (google draw). Then we mad
 What does your repository look like? Explain your folder and file structure.
 
 ## Links
-Include links to your repository, slides and trello/kanban board. Feel free to include any other links associated with your project. 
 
 [Repository](https://github.com/)  
 [Slides](https://slides.com/)  
