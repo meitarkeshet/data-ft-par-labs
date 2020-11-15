@@ -30,24 +30,24 @@ def phase_initialize():
     players_lst = players_lst[1:-1]
 
 
-    #print(players_lst)
+    print(players_lst)
 
     #create object names
     players_enu = [""]
     for i, x in enumerate(range(len(players_lst))):
         players_enu.append("player_"+str(i))
     players_enu = players_enu[1:]
-    #print(players_enu)
+    print(players_enu)
 
 
     # create objects from list of object names
     for i, x in enumerate(players_enu):
-       # print(x)
+        print(x)
         globals()[x] = Player(players_lst[i], init_soldiers(len(players_lst)))
-       # print(globals()[x].name)
+       #print(globals()[x].name)
 
-    #print(player_1.name)
-    #print(player_1.soldiers)
+    print(player_1.name)
+    print(player_1.soldiers)
 
 
 
@@ -72,8 +72,10 @@ def init_soldiers(num_players):
         print(20)
         
 # --------------------------------------
+# GAME PLAY
+# --------------------------------------
 # RUN GAME
 
 play_game()
-
+print(player_1.name)
 print(player_1.soldiers)
