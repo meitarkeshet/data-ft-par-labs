@@ -3,7 +3,7 @@
 # Title of Your Project
 *Matthieu Coget & Meitar Keshet*
 
-*Data analysis,*
+*Data analysis, Paris, November 2020*
 
 ## Content
 - [Project Description](#project-description)
