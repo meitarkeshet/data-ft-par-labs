@@ -9,7 +9,45 @@ The code is very long and messy. Refactor it according to what you have learned 
 code simplicity and efficiency.
 """
 
-print('Welcome to this calculator!')
+# two functions + running 
+#introduction 
+# 1. promt saving into variables
+# 2. turn var. from str to int
+# 3. variabe a + action + variabel b 
+
+num_a, num_b, action = "" , "", ""
+nbr_name = {"one":1, "two":2,"three":3,"four":4, "five":5}
+action_name = {"plus":"+", "minus":"-"}
+#print(num_a)
+
+def introduction():
+    print('Welcome to this calculator!')
+    
+
+def prompt_user():
+     global num_a,num_b, action  
+     num_a = flip_keys(input("Please choose your first number (zero to five): "))
+     num_b = flip_keys(input("Please choose your second number (zero to five): "))
+     action = input('What do you want to do? plus or minus: ')
+     
+def flip_keys(key):
+    global nbr_name, action_name
+    return(if key in nbr_name nbr_name.get(key) elif key in action_name:
+        pass)
+
+
+def calculate():
+    global num_a,num_b, action
+      
+def run_calculator():
+    introduction() # saying hello
+    prompt_user() # asking the user for numbers and what to do with them
+    
+run_calculator()
+print(num_a)
+print(num_b)
+
+"""
 print('It can add and subtract whole numbers from zero to five')
 a = input('Please choose your first number (zero to five): ')
 b = input('What do you want to do? plus or minus: ')
@@ -167,3 +205,4 @@ if (not a == 'zero' and not a == 'one' and not a == 'two' and not a == 'three' a
     print("I am not able to answer this question. Check your input.")
 
 print("Thanks for using this calculator, goodbye :)")
+"""
